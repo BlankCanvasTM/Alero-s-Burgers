@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/bootstrap-5.0.2-dist//css/bootstrap.css">
+    <link rel="stylesheet" href="custom.css">
     <title>Alero's Burgers</title>
 
 </head>
@@ -12,43 +13,274 @@
 
 <body>
 
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-warning">
-        <div class="container-xxl">
-            <a href="#intro" class="navbar-brand">
-                <span class="fw-bold text-secondary">Net Ninja Pro The Book</span>
-            </a>
-            <!-- toggle button for mobile navbar-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
-            aria-label="Toggle navigation"><span class="navbar-toggle-icon"></span>
-            </button>
+    <!-- main image & Navbar -->
+    
+    
+   
+    <div class="backgroundImage">
 
-            <!-- navbar links -->
-            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#topics" class="nav-link">About The Book</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#reviews" class="nav-link">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">Get In Touch</a>
-                    </li>
-                    <li class="nav-item d-md-none">
-                        <a href="#pricing" class="nav-link">Pricing</a>
-                    </li>
-                    <li class="nav-item ms-2 d-none d-md-inline">
-                        <a href="#pricing" class="btn btn-secondary">Buy Now</a>
-                    </li>
-                </ul>
+        <nav class="navbar sticky-top navbar-expand-md navbar-light">
+            <div class="container-xxl text-white">
+                
+                <a href="#intro" class="navbar-brand" disabled>
+                    <img src="/img/burgerLogo.png" alt="">
+                </a>
+                <!-- toggle button for mobile navbar-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggle-icon"></span>
+                </button>
+    
+                <!-- navbar links -->
+                <div class="collapse navbar-collapse justify-content-start align-center" id="main-nav">
+                    
+                    <ul class="navbar-nav">
+                        
+                        <!--<li class="nav-item px-4 fs-5">
+                            <a href="#topics" class="nav-link text-white">HOME</a>
+                        </li>
+                        
+                        <li class="nav-item px-4 fs-5">
+                            <a href="#reviews" class="nav-link text-white">PAGES</a>
+                        </li>
+                        
+                        <li class="nav-item px-4 fs-5">
+                            <a href="#contact" class="nav-link text-white">OUR OFFERS</a>
+                        </li>
+
+                        <li class="nav-item px-4 fs-5">
+                            <a href="#contact" class="nav-link text-white">GALLERIES</a>
+                        </li>
+
+                        <li class="nav-item px-4 fs-5">
+                            <a href="#contact" class="nav-link text-white">BLOG</a>
+                        </li>
+                        
+                        <li class="nav-item px-4 fs-5">
+                            <a href="#contact" class="nav-link text-white">SHOP</a>
+                        </li>-->
+
+                        <li class="nav-item dropdown px-4 fs-5">
+                            
+                            <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              HOME</a>
+                            
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                              <li><a class="dropdown-item" href="#">Landing</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Burgers</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Green</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Food truck</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Pizza</a></li>
+
+
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown px-4 fs-5">
+                            
+                            <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              PAGES</a>
+                            
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                              <li><a class="dropdown-item" href="#">About us</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Services</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Cost calculator</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Contact</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Under construction</a></li>
+
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown px-4 fs-5">
+                            
+                            <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              OUR OFFER</a>
+                            
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                              <li><a class="dropdown-item" href="#">Classic menu</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Menu features</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Menu highlights</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Special offers</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Reservations</a></li>
+
+
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown px-4 fs-5">
+                            
+                            <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              GALLERIES</a>
+                            
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                              <li><a class="dropdown-item" href="#">Galleries grid</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Galleries tiles</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Single project</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown px-4 fs-5">
+                            
+                            <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              BLOG</a>
+                            
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                              <li><a class="dropdown-item" href="#">Blog list</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Blog grid</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Blog Tiles</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Single post</a></li>
+
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item dropdown px-4 fs-5">
+                            
+                            <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              SHOP</a>
+                            
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                              <li><a class="dropdown-item" href="#">Products</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Single product</a></li>
+                              <li><hr class="dropdown-divider"></li>
+
+                              <li><a class="dropdown-item" href="#">Shop pages</a></li>
+
+                            </ul>
+                        </li>
+                        
+
+                    </ul>
+
+                </div>
+    
+            </div>
+        
+        </nav>
+
+        <div class="container my-5 pt-5">
+            <h4><span class="redBanner p-2">FAST FOOD BURGERS</span></h4>
+            <h2 class="display-1 fw-bold">BEST BURGERS <br> IN TOWN</h2>
+
+            <button type="button" class="btn btn-lg redBanner text-white lead my-3 outlineHover">OUR MENU</button>
+
+        </div>
+
+
+   
+    </div>
+
+
+    <div class="container-fluid redBanner">
+        <div class="row text-center py-4">
+            
+            <div class="col-2"></div>
+
+            <div class="col-2">
+                <img class="img-fluid px-5" src="/img/cheeseburger.png" alt="">
+                <H3 class="text-white">GOURMET BURGERS</H3>
+                <p class="lead">Our burgers offer a combination of tastes and textures – sweet, sour, salt – with a bit of crunch.</p>
+            </div>
+
+            <div class="col-2">
+                <img class="img-fluid px-5" src="/img/salad.png" alt="">
+                <H3 class="text-white">VEGGIE OPTIONS</H3>
+                <p class="lead">Water spinach arugula pea tatsoi aubergine spring onion.</p>
+            </div>
+
+            <div class="col-2">
+                <img class="img-fluid px-5" src="/img/milkshake.png" alt="">
+                <H3 class="text-white px-3">MILKSHAKES</H3>  
+                <p class="lead">Our milkshakes have the right mix of ice cream to milk for a shake that is creamy and frosty.</p>
+            </div>
+
+            <div class="col-2">
+                <img class="img-fluid px-5" src="/img/cupcake.png" alt="">
+                <H3 class="text-white px-5">DESSERTS</H3>
+                <p class="lead">All of your favorite cakes, creamy cheesecakes, crusty brownies and sweetness all in one place.</p>
+            </div>
+
+            <div class="col-2"></div>
+
+        </div>
+
+
+    </div>
+    
+    
+    <div class="container-fluid py-5 bg-light">
+        <div class="text-center"><h6><span class="redBanner p-2 text-white">TASTY AND CRUNCHY</span></h6></div>
+        <h2 class="display-1 fw-bold text-center">Choose & enjoy</h2>
+        <p class="text-center">Inspired by recipes and creations of world’s best chefs</p>
+
+        <div class="row text-center pt-5">
+
+            <div class="col-4">
+                <img src="/img/burger1.png" alt="" width = "350" height = "200">
+            </div>
+
+            <div class="col-4">
+                <img src="/img/burger2.png" alt="" width = "350" height = "200">
+            </div>
+
+            <div class="col-4">
+                <img src="/img/burger3.png" alt="" width = "350" height = "200">
             </div>
 
         </div>
-    </nav>
+
+    </div>
+    
 
 
-    <!-- main image & intro text -->
 
     
     
