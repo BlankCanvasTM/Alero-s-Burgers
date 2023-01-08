@@ -10,6 +10,18 @@
     width: 100%;
 }
 
+.bg-container{
+    background-image: url(/img/farmhouse\ burger.png);
+    height: 50vh;
+    width: 50vw;
+    background: no-repeat scroll center scroll;
+    background-size: cover;
+}
+
+.zeroP{
+    padding: 0;
+}
+
 
 body{
     height: 100vh;
