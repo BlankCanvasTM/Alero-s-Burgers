@@ -1,5 +1,5 @@
 .backgroundImage{
-    background-image: url(/img/burgerBanner.jpg);
+    background-image: url(img/burgerBanner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 80vh;
@@ -10,13 +10,7 @@
     width: 100%;
 }
 
-.bg-container{
-    background-image: url(/img/farmhouse\ burger.png);
-    height: 50vh;
-    width: 50vw;
-    background: no-repeat scroll center scroll;
-    background-size: cover;
-}
+
 
 .zeroP{
     padding: 0;
