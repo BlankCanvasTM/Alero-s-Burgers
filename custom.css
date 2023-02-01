@@ -8,6 +8,7 @@
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     padding: 0;
     width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -48,10 +49,22 @@ body{
     border: 2px solid #d10000;
 }
 
+.card{
+    width: 40rem;
+}
+
+/*.card-img-top{
+    width:100%;
+    height:auto;
+  }*/
 
 @media (max-width: 768px){
     .backgroundImage{
         min-height: 30vh;
+    }
+
+    .card{
+        width: 20rem;
     }
 
 }
