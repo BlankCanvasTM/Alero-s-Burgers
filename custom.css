@@ -21,7 +21,7 @@ body{
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
-    background-color: black;
+    background-color: #d10000;
 }
 
 .color-overlay{
